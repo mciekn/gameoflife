@@ -3,7 +3,7 @@ typedef struct vekt {
 };
 
 extern vekt v;
-extern int size, length;
+extern int size, length, sum;
 
 void init(int* tab, int w, int h);
 void resize(vekt v, int length);
